@@ -1,0 +1,20 @@
+{
+  "name": "js13k-callisto",
+  "version": "1.0.0",
+  "description": "js13k",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node build.js --dev",
+    "build": "node build.js",
+    "lint": "eslint src/**/*.js",
+    "fix": "eslint --fix src/**/*.js"
+  },
+  "devDependencies": {
+    "archiver": "5.3.0",
+    "eslint": "7.32.0",
+    "eslint-config-google": "0.14.0",
+    "google-closure-compiler": "20210907.0.0",
+    "roadroller": "2.0.0"
+  }
+}
