@@ -14,6 +14,8 @@ Controls:
 * M to toggle music
 * Escape to show main menu
 
+https://user-images.githubusercontent.com/749094/133300747-98fbe8bd-565e-45a5-8b70-4fd4c5529d7e.mp4
+
 ## Branches
 
 `submission` branch was submitted for the competition
