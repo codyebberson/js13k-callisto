@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/749094/133300747-98fbe8bd-565e-45a5-8b
 
 `submission` branch was submitted for the competition
 
-`master` branch includes post competition bug fixes
+`main` branch includes post competition bug fixes
 
 ## Develop
 
