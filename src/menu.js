@@ -287,7 +287,6 @@ const drawMenu = () => {
       playMenuBeep();
     }
     if (isKeyPressed(KEY_ESCAPE)) {
-      // setMenu(mainMenu);
       setMenu(prevMenu);
       playMenuBeep();
     }

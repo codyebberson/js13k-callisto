@@ -27,27 +27,29 @@ function drawHud() {
   setFontSize(24);
 
   setTextAlign(ALIGN_CENTER);
-  drawKeyIcon('W', WIDTH - 445, HEIGHT - 315);
-  drawKeyIcon('A', WIDTH - 490, HEIGHT - 270);
-  drawKeyIcon('S', WIDTH - 445, HEIGHT - 270);
-  drawKeyIcon('D', WIDTH - 400, HEIGHT - 270);
-  drawKeyIcon('⬆', WIDTH - 295, HEIGHT - 315);
-  drawKeyIcon('⬅', WIDTH - 340, HEIGHT - 270);
-  drawKeyIcon('⬇', WIDTH - 295, HEIGHT - 270);
-  drawKeyIcon('➡', WIDTH - 250, HEIGHT - 270);
-  drawKeyIcon('SPACE', WIDTH - 325, HEIGHT - 215, 100);
-  drawKeyIcon('Z', WIDTH - 250, HEIGHT - 215);
-  drawKeyIcon('SHIFT', WIDTH - 325, HEIGHT - 160, 100);
-  drawKeyIcon('X', WIDTH - 250, HEIGHT - 160);
-  drawKeyIcon('R', WIDTH - 250, HEIGHT - 105);
-  drawKeyIcon('M', WIDTH - 250, HEIGHT - 50);
+  drawKeyIcon('W', WIDTH - 445, HEIGHT - 370);
+  drawKeyIcon('A', WIDTH - 490, HEIGHT - 325);
+  drawKeyIcon('S', WIDTH - 445, HEIGHT - 325);
+  drawKeyIcon('D', WIDTH - 400, HEIGHT - 325);
+  drawKeyIcon('⬆', WIDTH - 295, HEIGHT - 370);
+  drawKeyIcon('⬅', WIDTH - 340, HEIGHT - 325);
+  drawKeyIcon('⬇', WIDTH - 295, HEIGHT - 325);
+  drawKeyIcon('➡', WIDTH - 250, HEIGHT - 325);
+  drawKeyIcon('SPACE', WIDTH - 327, HEIGHT - 270, 100);
+  drawKeyIcon('Z', WIDTH - 250, HEIGHT - 270);
+  drawKeyIcon('SHIFT', WIDTH - 327, HEIGHT - 215, 100);
+  drawKeyIcon('X', WIDTH - 250, HEIGHT - 215);
+  drawKeyIcon('R', WIDTH - 250, HEIGHT - 160);
+  drawKeyIcon('M', WIDTH - 250, HEIGHT - 105);
+  drawKeyIcon('ESC', WIDTH - 262, HEIGHT - 50, 60);
 
   setTextAlign(ALIGN_LEFT);
-  drawShadowText('Move', WIDTH - 210, HEIGHT - 270, OVERLAY_LIGHT_GRAY);
-  drawShadowText('Jump', WIDTH - 210, HEIGHT - 215, OVERLAY_LIGHT_GRAY);
-  drawShadowText('Jetpack', WIDTH - 210, HEIGHT - 160, OVERLAY_LIGHT_GRAY);
-  drawShadowText('Restart level', WIDTH - 210, HEIGHT - 105, OVERLAY_LIGHT_GRAY);
-  drawShadowText('Toggle music', WIDTH - 210, HEIGHT - 50, OVERLAY_LIGHT_GRAY);
+  drawShadowText('Move', WIDTH - 210, HEIGHT - 315, OVERLAY_LIGHT_GRAY);
+  drawShadowText('Jump', WIDTH - 210, HEIGHT - 270, OVERLAY_LIGHT_GRAY);
+  drawShadowText('Jetpack', WIDTH - 210, HEIGHT - 215, OVERLAY_LIGHT_GRAY);
+  drawShadowText('Restart level', WIDTH - 210, HEIGHT - 160, OVERLAY_LIGHT_GRAY);
+  drawShadowText('Toggle music', WIDTH - 210, HEIGHT - 105, OVERLAY_LIGHT_GRAY);
+  drawShadowText('Main menu', WIDTH - 210, HEIGHT - 50, OVERLAY_LIGHT_GRAY);
 }
 
 /**
