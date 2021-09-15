@@ -30,7 +30,11 @@ Fast build: `npm run dev`
 
 Release build: `npm run build`
 
-## Credits
+## Acknowledgements
+
+[Keith Clark](https://twitter.com/keithclarkcouk) and [Frank Force](https://twitter.com/KilledByAPixel) for [ZzFXM](https://keithclark.github.io/ZzFXM/)
+
+[Nicholas Carlini](https://nicholas.carlini.com/) for the starfield shader in [Yet Another Space Shooter](https://github.com/carlini/js13k2020-yet-another-space-shooter)
 
 Music: [Milky Way by Ben Prunty](https://benprunty.bandcamp.com/track/milkyway-explore)
 
