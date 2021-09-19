@@ -36,6 +36,8 @@ Release build: `npm run build`
 
 [Nicholas Carlini](https://nicholas.carlini.com/) for the starfield shader in [Yet Another Space Shooter](https://github.com/carlini/js13k2020-yet-another-space-shooter)
 
+[Kang Seonghoon](https://mearie.org/) for [Roadroller](https://lifthrasiir.github.io/roadroller/)
+
 Music: [Milky Way by Ben Prunty](https://benprunty.bandcamp.com/track/milkyway-explore)
 
 ## License
