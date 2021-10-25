@@ -1,29 +1,11 @@
 
 /**
- * Identity transform.
- * Uniform face distribution.
- * @param {number} x
- * @return {number}
- */
-const identityTransform = (x) => x;
-
-/**
- * Sigmoid transform.
- * Can be used as the densityTransform in buildFace.
- * Pushes more faces to the corners.
- * @param {number} x
- * @return {number}
- */
-const sigmoidTransform = (x) => 0.5 + 0.5 * Math.tanh((x - 0.5) * 10);
-
-/**
  * Builds a rounded cube.
  * @param {number} n Number of quads per axis per face.
  * @param {number} maxRadius Maximum distance of a point from the origin.
- * @param {function(number): number} densityTransform
  * @return {!Float32Array}
  */
-const buildRoundedCube = (n, maxRadius, densityTransform) => {
+const buildRoundedCube = (n, maxRadius) => {
   // Output data
   const data = [];
 
@@ -64,8 +46,8 @@ const buildRoundedCube = (n, maxRadius, densityTransform) => {
      * @param {number} j
      */
     const buildPoint = (out, i, j) => {
-      vec3.scaleAndAdd(out, origin, di, densityTransform(i / n));
-      vec3.scaleAndAdd(out, out, dj, densityTransform(j / n));
+      vec3.scaleAndAdd(out, origin, di, i / n);
+      vec3.scaleAndAdd(out, out, dj, j / n);
       const len = vec3.magnitude(out);
       if (len > maxRadius) {
         vec3.scale(out, out, maxRadius / len);

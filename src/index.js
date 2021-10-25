@@ -9,8 +9,8 @@ const preferredCameraPosition = vec3.fromValues(0, 0, 0);
 const lightPosition = vec3.fromValues(200, 400, -32);
 
 // 4 geometry types:
-const cubeGeometry = buildRoundedCube(1, 2, identityTransform);
-const sphereGeometry = buildRoundedCube(21, 1, identityTransform);
+const cubeGeometry = buildRoundedCube(1, 2);
+const sphereGeometry = buildRoundedCube(21, 1);
 buffers.push(
     new BufferSet(STATIC_DRAW, cubeGeometry, 200000),
     new BufferSet(STATIC_DRAW, sphereGeometry, 1000),
