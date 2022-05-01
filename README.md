@@ -54,9 +54,9 @@ My goal this year was to make something "fun", relatively easy (at least for the
 
 ### Graphics
 
-The rendering engine uses WebGL2. There were 3 new features added to the previous version:
+The rendering engine uses WebGL2. There were 3 new features added to the engine from my previous entries:
 
-First, [instanced rendering](https://webgl2fundamentals.org/webgl/lessons/webgl-instanced-drawing.html). This is built into WebGL2 without requiring extensions. The net impact is that it makes it faster and easier to
+First, [instanced rendering](https://webgl2fundamentals.org/webgl/lessons/webgl-instanced-drawing.html). This is built into WebGL2 without requiring extensions. The net impact is that it makes it faster and easier to render basic primitives.
 
 Second, spheres. Lots of spheres. The combination of instanced rendering and sphere geometry provided the building blocks for most of the characters, enemies, and items in the game. It felt good to throw spheres into the scene, and maintain 120 fps without breaking a sweat.
 
