@@ -7,14 +7,16 @@
   "scripts": {
     "dev": "node build.js --dev",
     "build": "node build.js",
+    "server": "http-server ./dist --port 3000",
     "lint": "eslint src/**/*.js",
     "fix": "eslint --fix src/**/*.js"
   },
   "devDependencies": {
-    "archiver": "5.3.0",
-    "eslint": "7.32.0",
+    "archiver": "5.3.1",
+    "eslint": "8.14.0",
     "eslint-config-google": "0.14.0",
-    "google-closure-compiler": "20210907.0.0",
-    "roadroller": "2.0.0"
+    "google-closure-compiler": "20220405.0.0",
+    "http-server": "^14.1.0",
+    "roadroller": "2.1.0"
   }
 }

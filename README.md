@@ -32,6 +32,12 @@ Fast build: `npm run dev`
 
 Release build: `npm run build`
 
+Start a web server: `npm run server`
+
+You can then point your web browser to <http://localhost:3000/>
+
+Note that the `npm run dev` command does not have a "watch" mode, so you need to rebuild every time you want to see your changes.
+
 ## Retrospective
 
 The compo is over. To my delight, The Adventures of Captain Callisto won [3rd place overall](https://2021.js13kgames.com/#winners)! It was also voted #2 for Theme and #4 for Graphics.
